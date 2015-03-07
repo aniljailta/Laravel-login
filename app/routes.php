@@ -26,8 +26,6 @@ Route::group(array('before'=>'guest'),function(){
 	Route::post('app/register','HomeController@RegisterUser');
 
 	Route::post('app/login','HomeController@loginuser');
-
-
 	});
 
 //all login user routes
