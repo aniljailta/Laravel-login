@@ -46,8 +46,6 @@
         <p ng-show="userForm.email.$invalid && !userForm.email.$pristine " class="help-block">Enter a valid email.</p>
     </div>
     <!-- Password -->
-   
-
   <div class="form-group" ng-class="{ 'has-error' : userForm.password.$invalid && !userForm.password.$pristine }">
   	<label>Password</label>
     <input ng-model="user.password" class="form-control" password-validate required type="password" id="inputPassword" placeholder="Password">
