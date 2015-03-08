@@ -5,8 +5,7 @@
     <!-- CSS ===================== -->
     <!-- load bootstrap -->
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="flags.css">
-    
+    <link rel="stylesheet" href="flags.css">    
     <!-- JS ===================== -->
     <!-- load angular -->
     <script src="bower_components/jquery-2.1.3.min/index.js"></script> 
