@@ -1,6 +1,4 @@
 <?php
-
-
 class Logs extends Eloquent  {
 
 	/**
