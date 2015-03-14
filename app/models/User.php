@@ -33,7 +33,7 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
          'password' => 'required|min:8|regex:/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).+$/',
     );
 
-     
+     //validations
      private $errors;
      
 	 public function validate($data){
