@@ -80,7 +80,6 @@ Route::filter('guest', function()
 | session does not match the one given in this request, we'll bail.
 |
 */
-
 Route::filter('csrf', function()
 {
 	if (Session::token() != Input::get('_token'))
