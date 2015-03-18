@@ -65,7 +65,7 @@ class HomeController extends BaseController {
 
 
     public function loginuser(){
-
+      //login manually
       if (Auth::attempt(array('email' => Input::get('email'), 'password' => Input::get('password'))))
 			{
                  //login succes 
