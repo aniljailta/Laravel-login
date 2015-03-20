@@ -58,9 +58,6 @@ $(document).ready(function(){
      }
      return;
    }
-
-   
-
   })
 
 //check password validation on key up
