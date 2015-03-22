@@ -26,5 +26,6 @@ return array(
 		'model'  => 'User',
 		'secret' => '',
 	),
+	
 
 );
