@@ -77,7 +77,6 @@ class HomeController extends BaseController {
                 $this->putinlogs(); 
 		    }
 
-
     }
 
 
